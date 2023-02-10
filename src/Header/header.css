@@ -1,0 +1,43 @@
+.bootstrap-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1abc9c;
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-header {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+    color: white;
+    font-weight: 700;
+    margin-top: 2rem;
+
+
+}
+
+
+
+.subheading {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .main-header {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    .subheading {
+        font-size: 1rem;
+        font-size: 25px;
+    }
+
+}
